@@ -13,7 +13,7 @@
     
 
     .body {
-        background-color: lightblue;
+        background-color:black;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -22,6 +22,7 @@
         width: 50vw;
         height: 100vh;
         margin: 0 auto;
+        border: dashed 10px gold;
         }
 
 .weather{
@@ -38,8 +39,12 @@
         margin-left: 12vw;
         margin: 20% auto;
         cursor:pointer;
-        
+        /* background-color: aqua; */
+        /* color: white; */
            
+}
+.weather:hover{
+    background-color: aqua;
 }
 
 .bottom{
@@ -76,6 +81,7 @@ p{
     /* margin-left: 5%; */
     margin-bottom: 15%;
     max-height: fit-content;
+    color: white;
 }
 
 /* .contact{
@@ -90,6 +96,6 @@ li{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 15%;
-    
+    color: white;
 
 }
