@@ -1,0 +1,228 @@
+.header {
+    background-color:lightgray;
+    color: black;
+    width: 45vw;
+    height: 15vh;
+    /* margin-top: 15%; */
+    margin-top:  15% auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+        /* margin-bottom: 15%; */
+    
+    
+    }
+    
+
+    .body {
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50vw;
+        height: 110vh;
+        margin: 0 auto;
+        border: solid 10px grey;
+        background-image: url("./image.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        }
+
+.weather{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 65%;
+        height: 10vh;
+        font-weight: bold;
+        font-size: medium;
+        border-radius: 10px;        
+        margin-left: 12vw;
+        margin: 20% auto;
+        cursor:pointer;
+        color: white;
+        
+           
+}
+
+.bottom{
+    text-align: center;
+    width: 40vw;
+    margin-top: 5vh;
+    height: 10vh;
+    
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    color: white;
+    padding: 40px 13px;
+    
+    
+    /* flex-wrap: wrap; */
+    
+}
+
+p{
+    width: 40vw;
+    height: 5vh;
+    background-color: white;
+    margin-left: 1rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+    max-height: fit-content;
+    color:black;
+    margin-bottom: 10%;
+    /* margin-left: 5%; */
+    /* margin-bottom: 10%;
+    margin-top: 15%; */
+    
+}
+ .second-button{
+    margin-top: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+    background-color: white;
+    max-height: fit-content;
+    /* border-radius: 10px; */
+    height: 5vh;
+    width: 30vw;
+    font-weight: bold;
+    color: black;
+    font-size: small;
+   
+    
+
+ }
+
+  .second-button:hover{
+    background-color: aqua;
+ }
+
+.holiday-button{
+    
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+    background-color: white;
+    max-height: fit-content;
+    /* border-radius: 10px; */
+    height: 5vh;
+    width: 30vw;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 1rem;
+    color: black;
+    
+
+}
+.holiday-button:hover{
+    background-color: aqua;
+}
+/* .contact{
+    margin-right: 20%;
+} */
+
+li{
+    /* margin-right: 10%; */
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    margin: 0 auto ;
+    font-size: 14px;
+    margin-top: -30% ;
+    /* margin-left: 10%; */
+    color: black;
+    height: 5vh;
+    width: 50vw;
+    /* margin-top: -10% auto; */
+    
+
+}
+
+.holiday{
+    background-color:rgb(248, 59, 59);
+    height: 5vh;
+    border-radius: 10px;
+    margin-top: 5vh;
+    color: black;
+}
+
+.holi123{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+    background-color:gray;
+    max-height: fit-content;
+    border-radius: 10px;
+    margin-top: 5vh;
+    color: black;
+
+
+}
+.exchange-rates{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+    background-color:gray;
+    max-height: fit-content;
+    border-radius: 10px;
+    margin-top: 5vh;
+    margin-bottom: 1rem;
+    color: black;
+
+}
+
+
+
+/* .exchange{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+    background-color: rgb(248, 59, 59);
+    max-height: fit-content;
+    border-radius: 10px;
+    margin-top: 5vh;
+} */
+
+/* img{
+    /* background-image:  url(./image.png); */
+    /* width: 40%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: -1%;
+    max-height: fit-content;
+} */ 
